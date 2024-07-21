@@ -49,3 +49,9 @@ function addBook(){
 
 
 }
+
+const addButton = document.querySelector('#add-button');
+document.addEventListener("submit",(event) => {
+    event.preventDefault();
+    addBook();
+})
